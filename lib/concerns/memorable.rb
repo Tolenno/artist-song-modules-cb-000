@@ -11,8 +11,4 @@ module Memorable
     @@artists.clear if self == Artist
     @@songs.clear if self == Songs
   end
-
-  def reset_all
-    @@songs.clear
-  end
 end
