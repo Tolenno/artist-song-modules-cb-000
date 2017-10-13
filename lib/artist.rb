@@ -34,4 +34,6 @@ class Artist
   def self.all
     @@artists
   end
+
+  binding.pry
 end
