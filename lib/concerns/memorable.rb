@@ -17,4 +17,5 @@ module Memorable
 
   def test
     puts "Test"
+  end
 end
