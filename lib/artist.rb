@@ -14,7 +14,7 @@ class Artist
   end
 
   def initialize
-    self.all << self
+    Artist.all << self
     @songs = []
   end
 
