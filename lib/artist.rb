@@ -2,7 +2,7 @@ require 'pry'
 require_relative '../config/environment.rb'
 
 class Artist
-  extend Memorable
+  extend Memorable::ClassMethods
   extend Findable
   include Paramable
 
