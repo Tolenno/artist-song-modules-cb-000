@@ -1,5 +1,5 @@
 module Memorable
-  def self.count
+  def Song.count
     @@artists.count
   end
 
