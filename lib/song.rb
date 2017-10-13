@@ -6,7 +6,7 @@ class Song
   attr_accessor :name
   attr_reader :artist
 
-  @@songs = p
+  @@songs = []
 
   def initialize
     @@songs << self
@@ -22,5 +22,9 @@ class Song
 
   def to_param
     name.downcase.gsub(' ', '-')
+  end
+
+  def self.all
+
   end
 end
