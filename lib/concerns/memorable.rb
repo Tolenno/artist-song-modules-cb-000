@@ -1,5 +1,5 @@
 module Memorable
-  @@artists = ["test"]
+  @@artists = []
   @@songs = []
 
   def count
