@@ -3,8 +3,7 @@ module Memorable
   # @@songs = ["Test"]
 
   def count
-    @@artists.count if self == Artist
-    @@songs.count if self == Song
+    self.all.count
   end
 
   def reset_all
