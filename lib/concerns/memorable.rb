@@ -1,7 +1,4 @@
 module Memorable
-  # @@artists = []
-  # @@songs = ["Test"]
-
   def count
     self.all.count
   end
