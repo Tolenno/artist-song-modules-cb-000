@@ -1,5 +1,5 @@
 module Memorable
   def self.count
-    @@object_array.count
+    @@artists.count
   end
 end
