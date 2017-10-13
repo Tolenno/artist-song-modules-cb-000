@@ -10,6 +10,5 @@ module Memorable
   def reset_all
     @@artists.clear if self == Artist
     @@songs.clear if self == Song
-    binding.pry
   end
 end
