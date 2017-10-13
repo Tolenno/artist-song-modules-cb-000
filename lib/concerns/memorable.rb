@@ -7,11 +7,11 @@ module Memorable
     self.all.count
   end
 
-  def self.reset_all
+  def Song.reset_all
     self.all.clear
   end
 
-  def self.reset_all
+  def Artist.reset_all
     @@songs.clear
   end
 end
