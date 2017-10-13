@@ -7,12 +7,9 @@ module Memorable
     @@songs.count if self == Song
   end
 
-  def count
-    @@songs.count
-  end
-
   def reset_all
-    @@artists.clear
+    @@artists.clear if self == Artist
+    @@songs.clear if self == Songs
   end
 
   def reset_all
