@@ -3,7 +3,7 @@ module Memorable
   @@songs = []
 
   def count
-    @@artists.count
+    @@artists.count if self == Artist
   end
 
   def count
