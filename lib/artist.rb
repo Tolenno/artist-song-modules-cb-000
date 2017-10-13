@@ -7,6 +7,8 @@ class Artist
   attr_accessor :name
   attr_reader :songs
 
+  test
+
   @@artists = []
 
   def self.find_by_name(name)
@@ -42,5 +44,4 @@ class Artist
   def to_param
     name.downcase.gsub(' ', '-')
   end
-
 end
