@@ -4,6 +4,7 @@ module Memorable
 
   def count
     @@artists.count if self == Artist
+    @@songs.count if self == Song
   end
 
   def count
