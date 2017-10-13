@@ -9,6 +9,6 @@ module Memorable
 
   def reset_all
     @@artists.clear if self == Artist
-    @@songs.clear if self == Songs
+    @@songs.clear if self == Song
   end
 end
