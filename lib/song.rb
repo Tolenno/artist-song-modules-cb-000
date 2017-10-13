@@ -1,6 +1,6 @@
 require 'pry'
 
-inlcude Memorable
+extend Memorable
 
 class Song
   attr_accessor :name
