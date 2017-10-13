@@ -1,6 +1,6 @@
 module Memorable
   @@artists = []
-  @@songs = []
+  @@songs = ["Test"]
 
   def count
     @@artists.count if self == Artist
