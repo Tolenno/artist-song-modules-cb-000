@@ -11,11 +11,7 @@ module Memorable
     self.all.clear
   end
 
-  def self.reset_all
+  def reset_all
     @@songs.clear
-  end
-
-  def test
-    puts "Test"
   end
 end
